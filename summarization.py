@@ -8,7 +8,7 @@ from langchain.chains.summarize import load_summarize_chain
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from PyPDF2 import PdfReader
 # Set your OpenAI API key
-open_api_key = "sk-smwm1RBSXekyqdUplCkFJRdSSbKPJJgiqBx3JZZve"
+open_api_key = "use your own api key"
 os.environ["OPENAI_API_KEY"] = open_api_key
 
 # Initialize the OpenAI LLM
